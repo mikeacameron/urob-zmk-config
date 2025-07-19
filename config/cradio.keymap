@@ -10,3 +10,5 @@
 
 #include "zmk-helpers/key-labels/34.h"
 #include "base.keymap"
+
+/ { chosen { zmk,matrix_transform = &default_transform; }; };
